@@ -48,8 +48,8 @@ class Container extends Component {
         {/* text quote div */}
             <div className ='container-fluid'>
                 <div>
-                    <h5 className='text-quote'><FaQuoteLeft /> {this.props.strQuote[this.props.strRandom]}</h5>
-                    <h6 className='text-author'>{this.props.strQuoteAuthor[this.props.strRandom]}</h6>
+                    <h4 className='text-quote'><FaQuoteLeft /> {this.props.strQuote[this.props.strRandom]}</h4>
+                    <h5 className='text-author'>{this.props.strQuoteAuthor[this.props.strRandom]}</h5>
                 </div>
                 {/* buttons div */}
                     <p><span>
