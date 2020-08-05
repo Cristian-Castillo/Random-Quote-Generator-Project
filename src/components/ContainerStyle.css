@@ -1,0 +1,70 @@
+/* Container with text and button */
+.container-fluid{
+    background-color:white;
+    margin:auto;
+    position:absolute;
+    top:200px;
+    border-radius:2.5px;
+    width:230px;
+    height:180px;
+    box-shadow: 0px 6px 20px rgba(45,45,45,.5);
+}
+/* Text Quote */
+.text-quote{
+    padding:2px 10px 0px 10px;
+    height:60px;
+    animation-name:textAnimation;
+    animation-duration:2.5s;
+}
+/* Intro delay animation */
+@keyframes textAnimation{
+    0%{
+        color:white;
+        transition:1s;
+    }
+   
+}
+/* Text Author */
+.text-author{
+    font-size:10px;
+    text-align:right;
+    padding-right:20px;
+    margin-top:-22px;
+}
+/* Nest 3 buttons */
+.buttonIconGroup{
+    display:inline-block;
+}
+/*Twitter & Tumblar */
+.buttonIcon{
+    margin-top:1px;    
+    border-radius:3px;
+    border-style:none;
+    padding-top:3px;
+    color:white;
+}
+/* New Quote Button */
+.buttonQuote{
+    border-radius:2.5px;
+    border-style:none;
+    color:white;
+    padding:5px;
+}
+/* General Button format */
+button{
+    margin:5px;
+    cursor:pointer;
+    outline:none;
+}
+
+/* Developer Name */
+.developer-style{
+    color:white;
+    position:relative;
+    top:370px;
+}
+
+a{
+    color:white;
+    cursor:pointer;
+}
