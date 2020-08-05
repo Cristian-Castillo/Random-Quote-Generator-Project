@@ -9,8 +9,7 @@
     height:180px;
     box-shadow: 0px 6px 20px rgba(45,45,45,.5);
 }
-/*    width:230px;
-    height:180px;*/
+/*Smaller Screen Cell Responsiveness */
 @media(max-width:250px){
     .container-fluid{
             width:230px;
