@@ -1,18 +1,16 @@
 /* Container with text and button */
-@media(min-width:300px){
-    .container-fluid{
-        background-color:white;
-        margin:auto;
-        position:absolute;
-        top:200px;
-        border-radius:2.5px;
-        width:450px;
-        height:190px;
-        box-shadow: 0px 6px 20px rgba(45,45,45,.5);
-    }
+.container-fluid{
+    background-color:white;
+    margin:auto;
+    position:absolute;
+    top:200px;
+    border-radius:2.5px;
+    width:450px;
+    height:190px;
+    box-shadow: 0px 6px 20px rgba(45,45,45,.5);
 }
 /*Smaller Screen Cell Responsiveness */
-@media(min-width:100px){
+@media(max-width:350px){
     .container-fluid{
         background-color:white;
         margin:auto;
