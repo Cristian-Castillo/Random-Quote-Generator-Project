@@ -12,7 +12,7 @@
 /*Smaller Screen Cell Responsiveness */
 @media(max-width:250px){
     .container-fluid{
-            width:230px;
+            width:218px;
             height:190px;
     }
 }
