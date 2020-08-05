@@ -5,10 +5,18 @@
     position:absolute;
     top:200px;
     border-radius:2.5px;
-    width:230px;
-    height:180px;
+    width:300px;
+    height:200px;
     box-shadow: 0px 6px 20px rgba(45,45,45,.5);
 }
+/*Smaller Screen Cell Adjustment*/
+@media(max-width:250px){
+    .container-fluid{
+        width:230px;
+        height:190px;
+    }
+}
+
 /* Text Quote */
 .text-quote{
     padding:2px 10px 0px 10px;
@@ -61,7 +69,7 @@ button{
 .developer-style{
     color:white;
     position:relative;
-    top:370px;
+    top:380px;
 }
 
 a{
